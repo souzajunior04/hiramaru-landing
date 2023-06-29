@@ -42,6 +42,7 @@ body {
 .conteudo {
     border-top: 0.4px solid white;
     margin-bottom: 45px;
+    
 }
 
 .conteudo-principal {
@@ -49,6 +50,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
@@ -56,6 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    flex-wrap: wrap;
 
 }
 
@@ -63,6 +66,7 @@ body {
     font-family: 'Ysabeau Office', sans-serif;
     font-weight: 500;
     font-size: 64px;
+    flex-wrap: wrap;
     
 }
 
@@ -70,6 +74,7 @@ body {
     font-family: 'Ysabeau Office', sans-serif;
     font-weight: 400;
     font-size: 24px;
+    flex-wrap: wrap;
 }
 
 .conteudo-principal-escrito-botao {
@@ -83,6 +88,7 @@ body {
     font-family: 'Ysabeau Office', sans-serif;
     font-weight: 530;
     font-size: 19px;
+    flex-wrap: wrap;
 }
 
 .conteudo-principal-escrito-botao:hover{
@@ -92,6 +98,7 @@ body {
 
 .conteudo-principal-imagem {
     height: 550px;
+    flex-wrap: wrap;
 }
 
 .conteudo-secundario{
