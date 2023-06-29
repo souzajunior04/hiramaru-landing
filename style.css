@@ -6,6 +6,10 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 100%;
     background-image: radial-gradient(circle at 87.5% 12.5%, #c6b16e 0, #bbb069 7.14%, #afaf65 14.29%, #a1ad61 21.43%, #92ab5d 28.57%, #81a85b 35.71%, #6da559 42.86%, #57a158 50%, #3b9d59 57.14%, #02995c 64.29%, #009561 71.43%, #009167 78.57%, #008e6f 85.71%, #008b77 92.86%, #008881 100%);
@@ -70,6 +74,7 @@ body {
 
 .conteudo-principal-escrito-botao {
     background-color: whitesmoke;
+    cursor: pointer;
     width: 150px;
     height: 68px;
     border: none;
@@ -82,6 +87,7 @@ body {
 
 .conteudo-principal-escrito-botao:hover{
     background-color: #57a158;
+    transition: 0.4s;
 }
 
 .conteudo-principal-imagem {
@@ -103,6 +109,14 @@ body {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 18px;
+}
+
+#link-topo {
+    box-shadow: 6px 6px 10px #333;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
 
 .conteudo-secundario-paragrafo {
@@ -132,6 +146,9 @@ body {
     font-family: 'Ysabeau Office', sans-serif;
     font-weight: 500;
     font-size: 18px;
+}
+li {
+    padding: 6px;
 }
 .rodape {
     padding: 32px;
