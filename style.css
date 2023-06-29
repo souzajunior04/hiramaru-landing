@@ -8,6 +8,7 @@
 }
 html{
     scroll-behavior: smooth;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 768px){
@@ -37,7 +38,7 @@ body {
 
 .cabecalho-menu {
     display: flex;
-    gap: 30px;
+    gap: 26px;
 }
 
 .cabecalho-menu-item {
@@ -168,11 +169,14 @@ li {
 .rodape {
     padding: 32px;
     border-top: 0.4px solid whitesmoke ;
+    display: flex;
+    justify-content: center;
    
 }
 
 .rodape-imagem {
-    display: block;
-    margin: 0 auto;
-    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
 }
