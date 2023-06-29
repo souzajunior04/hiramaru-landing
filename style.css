@@ -110,6 +110,29 @@ body {
     font-weight: 500;
     font-size: 20px;
 }
+
+.conteudo-curiosidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 54px;
+}
+
+.conteudo-curiosidades-titulo {
+    border-top: 0.4px solid whitesmoke ;
+    padding-top: 45px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.conteudo-curiosidades-listas {
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
 .rodape {
     padding: 32px;
     border-top: 0.4px solid whitesmoke ;
