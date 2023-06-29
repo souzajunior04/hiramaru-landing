@@ -13,6 +13,7 @@ html{
 body {
     font-size: 100%;
     background-image: radial-gradient(circle at 87.5% 12.5%, #c6b16e 0, #bbb069 7.14%, #afaf65 14.29%, #a1ad61 21.43%, #92ab5d 28.57%, #81a85b 35.71%, #6da559 42.86%, #57a158 50%, #3b9d59 57.14%, #02995c 64.29%, #009561 71.43%, #009167 78.57%, #008e6f 85.71%, #008b77 92.86%, #008881 100%);
+    max-width: 100%;
 }
 
 .cabecalho {
@@ -166,5 +167,5 @@ li {
 .rodape-imagem {
     display: block;
     margin: 0 auto;
-    height: 180px;
+    height: 150px;
 }
